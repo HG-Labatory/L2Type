@@ -1,0 +1,8 @@
+@startuml
+[*] --> START
+START --> PLAYING
+PLAYING --> RESULT
+RESULT --> PLAYING
+RESULT --> GAME_OVER
+GAME_OVER --> START
+@enduml
