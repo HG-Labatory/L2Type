@@ -9,9 +9,7 @@ class InputHandler:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_BACKSPACE:
                 self.text = self.text[:-1]
-            elif event.key == pygame.K_RETURN:
-                pass  # Enter wird im main.py behandelt
-            else:
+            elif event.key != pygame.K_RETURN:
                 self.text += event.unicode
 
     def reset(self):
