@@ -1,0 +1,7 @@
+Hund
+Katze
+Auto
+Blume
+Computer
+Python
+Spiel
